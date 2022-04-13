@@ -1,4 +1,6 @@
-window.alert("Hello Tej!");
+window.onload = function(){
+    window.alert("Hello Tej!");
+}
 function greetings() {
     alert("Hello there!");
 }
