@@ -11,12 +11,16 @@
     <div class="container">
     <h1 style="font-size: 40px;"><b>TEJ Application Project</b></h1>
     <h2>This is just a small sample website with basic javascript functionality</h2>
-    <button><b>Say hello</b></button>
-    <div class="content">
-    <button>+</button>
-    <h3> current number: 0 </h3> 
-    <button>-</button>
+    <button onclick="greetings()"><b>Say hello</b></button>
+     <form>
+        <div class="content">
+            <input type="button" value="+" onclick="add()"></input>
+            <h3> current number: </h3>
+            <input class="variable" type="text" id="number" value="0"></input>
+            <input type="button" value="-" onclick="subtract()"></input>
+        </div>
+     </form>
     </div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,13 +1,16 @@
-
-document.write("Hello Tej");
-
-function increment() {
-    var value = document.getElementById("value").innerHTML;
-    value = parseInt(value) + 1;
-    document.getElementById("value").innerHTML = value;
+window.alert("Hello Tej!");
+function greetings() {
+    alert("Hello there!");
 }
-function decrement() {
-    var value = document.getElementById("value").innerHTML;
-    value = parseInt(value) - 1;
-    document.getElementById("value").innerHTML = value;
+function add() {
+    var value = parseInt(document.getElementById('number').value,10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
+function subtract() {
+    var value = parseInt(document.getElementById('number').value,10);
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number').value = value;
 }
