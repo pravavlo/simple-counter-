@@ -1,6 +1,16 @@
-.container{
+.body{
     display: block;
-    
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: aqua;
+    margin:auto;
+    width: 40%;
+    text-align: center;
+    align-content: center;
 }
 
 .container h1{
@@ -10,4 +20,5 @@
     display : flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
 }
